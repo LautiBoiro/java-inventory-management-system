@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CarritoViewController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="DETALLE DE COMPRA" />
+      <TableView fx:id="tbvCarrito" layoutX="14.0" layoutY="40.0" prefHeight="250.0" prefWidth="572.0">
+        <columns>
+          <TableColumn fx:id="colNombre" prefWidth="250.0" text="Producto" />
+          <TableColumn fx:id="colCantidad" prefWidth="160.0" text="Cantidad" />
+            <TableColumn fx:id="colSubtotal" prefWidth="161.0" text="Subtotal" />
+        </columns>
+      </TableView>
+      <Label fx:id="lblTotal" layoutX="14.0" layoutY="300.0" prefHeight="26.0" prefWidth="200.0" text="Total: $0.00" />
+      <Button fx:id="btnConfirmar" layoutX="370.0" layoutY="350.0" mnemonicParsing="false" onAction="#confirmar" prefHeight="26.0" prefWidth="100.0" text="Confirmar" />
+      <Button fx:id="btnCancelar" layoutX="486.0" layoutY="350.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="26.0" prefWidth="100.0" text="Cancelar" />
+   </children>
+</AnchorPane>
