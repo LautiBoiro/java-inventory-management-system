@@ -17,6 +17,14 @@ A live demo is not available.
 
 <img width="696" height="524" alt="image" src="https://github.com/user-attachments/assets/bf093c00-cb08-4713-93b1-1ae24ac70330" />
 
+The main interface provides access to the complete sales workflow, including:
+
+- 📦 Product inventory
+- 🛒 Shopping cart
+- 🔢 Quantity selection
+- 📉 Real-time stock validation
+- 💰 Purchase processing
+
 ---
 
 ## 🧠 Features
